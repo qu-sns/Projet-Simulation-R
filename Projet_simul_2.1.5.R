@@ -9,7 +9,7 @@ petoile.petite <- function(n.simul, params) {
   
   # Intensité du processus de Poisson : on choisit une intensité 1,5 fois plus grande que l(t)
   # Le but de considérer une intensité plus grande est de réduire la variance par échantillonnage préférentiel
-  # Regarder théorie de la ruine 27 minutes 30 pour comprendre la méthode
+  # Méthode semblable à celles utilisées dans les théories de la ruine
   # Intensité choisi pour appliquer Monté Carlo 
   
   # Intensité du processus de Poisson
