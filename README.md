@@ -40,7 +40,7 @@ On cherche à :
 
 ## 3 Explication des fonctions 
 
-- Projet_simul_2.3.R : Simule des intensité de pluies aléatoires, application de méthode de rejet, majoration par une loi normale ajustée
+- Projet_simul_2.3.R : Simule des intensités de pluies aléatoires, application de méthode de rejet, majoration par une loi normale ajustée
 - Projet_simul_2.4.R : Application de la méthode de Monté carlo pour estimer une probabilité d'inondation
 - Projet_simul_2.5.R : Amélioration de la méthode de monté Carlo, optimisation de la convergence vers proba grâce à une méthode d'échantillonage préférentiel (pour les probas proches de 0)
 - ShinyDashboard_WeatherFloodSimulation2.R : Création d'une application RShiny Dashboard pour la présentation des résultats et l'étude de l'influence des paramètres.
