@@ -18,7 +18,7 @@ où λ₀ et α sont des constantes du modèle, vérifiant λ₀ > 0 et 0 ≤ α
 
 On modélise les intensités de chacune des pluies par des variables aléatoires indépendantes, et indépendantes des dates des pluies, toutes de loi Pi de densité fᵢ définie par :
 
-\[ f_i(x) = \frac{c_i}{(1 + (x - x₀)^2)^{\frac{η}{2}}} \]
+$\[ f_i(x) = \frac{c_i}{(1 + (x - x₀)^2)^{\frac{η}{2}}} \]$
 
 où cᵢ est une constante de normalisation, et m > 0, x₀ > 0 et η > 2 sont des paramètres du modèle. On note I₁, I₂, ... les variables aléatoires correspondant aux intensités des pluies.
 
@@ -26,7 +26,7 @@ où cᵢ est une constante de normalisation, et m > 0, x₀ > 0 et η > 2 sont d
 
 La hauteur d’eau H(t) dans le fleuve Coulantine au temps t est définie comme suit :
 
-\[ H(t) = \int_0^t f(t - s)vH(s)ds \]
+$\[ H(t) = \int_0^t f(t - s)vH(s)ds \]$
 
 où r est la fonction de résorption de l’eau de ce fleuve, en notant v la vitesse de résorption. On notera Hmax la hauteur maximale de l’eau dans le fleuve Coulantine au cours de l’année 2024.
 
@@ -34,7 +34,7 @@ où r est la fonction de résorption de l’eau de ce fleuve, en notant v la vit
 
 On cherche à :
 
-- Approximer, par une méthode de Monte Carlo, la probabilité que Hmax dépasse le seuil h₀ (donné) correspondant à l’inondation de la ville d’Aussec : \[ \text{Prob}(H_{\text{max}} > h₀) \]
+- Approximer, par une méthode de Monte Carlo, la probabilité que Hmax dépasse le seuil h₀ (donné) correspondant à l’inondation de la ville d’Aussec : $\[ \text{Prob}(H_{\text{max}} > h₀) \]$
   
 - Étudier l’influence des paramètres λ₀, α, x₀, v et h₀ sur la probabilité p∗(h₀). Le sens de cette influence était-il attendu?
 
