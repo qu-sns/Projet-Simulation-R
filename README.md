@@ -10,7 +10,7 @@ On considère le fleuve Coulantine traversant la ville d’Aussec. On souhaite s
 
 On modélise les dates des pluies par un processus de Poisson inhomogène, de fonction intensité λ définie par
 
-\[ \lambda(t) = \lambda_0(1 + \alpha \sin(4\pi t)) \]
+$\[ \lambda(t) = \lambda_0(1 + \alpha \sin(4\pi t)) \]$
 
 où λ₀ et α sont des constantes du modèle, vérifiant λ₀ > 0 et 0 ≤ α < 1. Dans cette expression, t représente le temps en années, avec t = 0 au début de l’année 2024 et t = 1 à la fin de l’année 2024. On note T₁, T₂, ... les variables aléatoires correspondant aux dates des pluies.
 
