@@ -44,4 +44,4 @@ On cherche à :
 - Projet_simul_2.4.R : Application de la méthode de Monté carlo pour estimer une probabilité d'inondation
 - Projet_simul_2.5.R : Amélioration de la méthode de monté Carlo, optimisation de la convergence vers proba grâce à une méthode d'échantillonage préférentiel (pour les probas proches de 0)
 - ShinyDashboard_WeatherFloodSimulation2.R : Création d'une application RShiny Dashboard pour la présentation des résultats et l'étude de l'influence des paramètres.
-  
+  (Dernière partie avancée par [Dinesh.B](https://github.com/DidiKongData), voir repository [RShiny-Dashboard](https://github.com/DidiKongData/RShiny-Dashboard-App-Flood-Probability-Prediction) pour plus de détail)
