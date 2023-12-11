@@ -15,7 +15,7 @@ rintensite <- function(n, params) {
     return(10 / (9 * m * (1 + ((x - x0) / a)^2)))
   }
   
-  # Détermination de N : borne supérieure (99.99 % des valeurs)
+  # Détermination de N : borne supérieure (99.999 % des valeurs)
   N <- 1
   Ci <- integrate(fi, lower = 0, upper = Inf)
   
